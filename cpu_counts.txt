@@ -1,0 +1,116 @@
+cpu	Count
+core i7	245
+core i5	138
+core i7 family	104
+intel core i7	63
+celeron	36
+core i9	31
+intel core i5	28
+core i5 family	24
+ryzen 7	23
+amd ryzen 7	23
+core i3	21
+intel core i9	21
+ryzen 5	19
+celeron n	12
+amd r series	10
+celeron n4020	9
+pentium	8
+intel core i3	8
+ryzen 9	8
+core i3 family	7
+mediatek mt8183	7
+amd a series	7
+unknown	6
+intel core i5-1135g7	6
+intel mobile cpu	6
+corei7-10750h	6
+core i5-10210u	4
+celeron n4000	4
+core i3-1005g1	4
+athlon	4
+1.2ghz cortex a8 processor	4
+ryzen 7 5800h	4
+celeron n3350	4
+apple m1	3
+intel atom	3
+mediatek_mt8127	3
+core i7-1065g7	3
+celeron n3450	3
+snapdragon	3
+ryzen 3 3250u	3
+core i5-1035g1	3
+core i3 1115g4	2
+intel celeron d	2
+ryzen 5 3500u	2
+pentium other	2
+core i5 8250u	2
+ryzen 3 3200u	2
+ryzen 3	2
+core i5 5300u	2
+core i5 6200u	2
+amd ryzen 5 5500u	2
+intel core i7-1165g7	2
+core i7 11800h	2
+core i7 8750h	2
+core i7 8550u	2
+core i7 12700h	2
+core i3-520m	1
+pentium n3540	1
+core i5-1130g7	1
+amd ryzen 3 2300x	1
+ryzen 3 4300u	1
+core i5-3317u	1
+core i3 8130u	1
+core i5 8400t	1
+amd kabini a6-5200m quad core	1
+a-series	1
+core i3-10110u	1
+ryzen 5 4500u	1
+celeron n2840	1
+core i7-10700t	1
+core i7-3720qm	1
+core i5-655k	1
+ryzen 5 5500u	1
+core i5 4310m	1
+ryzen 3 1300x	1
+ryzen 5 4600h	1
+intel pentium 4	1
+core i5-10310y	1
+intel core i7-1355u	1
+core m family	1
+core 2 duo	1
+intel core i5-4200u	1
+core i7 6700hq	1
+athlon silver 3050u	1
+mediatek helio p60t	1
+intel core m-5y10 processor	1
+ryzen 3 3350u	1
+a-series dual-core a4-3300m	1
+others	1
+amd ryzen 9 5900x	1
+core i7-12650h	1
+ryzen 7 4800h	1
+core i7-10510u	1
+ryzen 9 7900x	1
+intel core i7 12800h	1
+a10-7700k	1
+core i7-2620qm	1
+atom z8350	1
+core i5 7200u	1
+core i7-8650u	1
+intel core i7 extreme	1
+core i5-4210u	1
+pentium n5000	1
+core i5-4200m	1
+core i9 7960x	1
+core i5-3320m	1
+ryzen 7 2700u	1
+core m3-8100y	1
+cortex	1
+amd ryzen 7 5800h	1
+core i7 7500u	1
+core i7-13700k	1
+amd a4	1
+corei7-10875h	1
+core_m	1

@@ -1,0 +1,149 @@
+Color	Count
+black	288
+unknown	224
+silver	134
+gray	37
+platinum silver	25
+grey	16
+natural silver	14
+blue	14
+obsidian black	13
+platinum	9
+shadow black	7
+indie black	7
+platinum grey	7
+star black	6
+ink black	6
+white	6
+core black	6
+pure silver	5
+dark side of the moon	5
+lunar light	5
+off black	5
+almond	5
+green	5
+eclipse gray	5
+carbon gray	5
+slate grey	4
+space gray	4
+graphite black	4
+quiet blue	4
+arctic grey	4
+carbon black	4
+storm grey	3
+titanium blue	3
+slate gray	3
+mica silver	3
+graphite grey	3
+silver/black	3
+abyss blue	3
+titan gray	3
+gray, platinum silver	3
+shale black	3
+graphite	3
+dark moss	3
+transparent silver	2
+mecha gray	2
+epic silver	2
+dynamic white	2
+abyss black	2
+nocturne blue	2
+cosmo gray	2
+ice blue	2
+fog blue	2
+tech black	2
+onyx grey	2
+gold	2
+dark grey	2
+grey, gray, platinum silver	2
+mineral silver	2
+metallic gray	2
+royal blue	2
+jade black	2
+mineral grey	2
+black paint	2
+dark side of the moon with high endurance clear coat and silky smooth finish	2
+phantom blue	2
+carbon fiber	2
+grey, platinum silver	2
+midnight black	2
+dark ash silver	1
+machined aluminum	1
+machined aluminum display back and base in silver	1
+mercury grey	1
+business black	1
+safari gold	1
+pine grey	1
+arctic gray	1
+mineral gray	1
+ice blue + iron grey	1
+urban silver	1
+silver,black	1
+silver, black	1
+classic black	1
+mercury	1
+graphite gray	1
+cobalt	1
+platinum gray	1
+charcoal gray	1
+black,silver,grey	1
+dune	1
+dark teal	1
+fiesta red	1
+black/white	1
+gray, grey, platinum silver	1
+eclipse grey	1
+lunar gold	1
+beige mousse	1
+black and silver	1
+silver matte	1
+coral red	1
+grey/black	1
+ai blue	1
+snowflake white	1
+onyx black	1
+pebble green	1
+touchscreen	1
+cover: red ; inner/keyboard: black	1
+phantom grey	1
+aluminum titan gray	1
+evo i7-1260p	1
+galaxy black	1
+phantom grey with speckles	1
+mystic black	1
+stormy grey	1
+mystic blue	1
+basalt grey	1
+cloud grey	1
+abyssal black	1
+gray, silver	1
+punk pink	1
+mist blue	1
+burgundy red	1
+shadow grey	1
+sky	1
+aluminum	1
+gary	1
+lunar white	1
+black with illuminated razer logo	1
+indigo blue	1
+celestial blue	1
+dale gray	1
+blizzard white	1
+information not available	1
+modern gray	1
+sliver	1
+platinum titan	1
+star gray	1
+dark metallic moon	1
+poseidon blue	1
+dark shadow grey	1
+mineral black	1
+thunder balck	1
+pale rose gold	1
+ash gray	1
+moonstone white	1
+dark ash	1
+neptune blue	1
+titanium blue-black-dark blue-black	1
+iron gray	1
