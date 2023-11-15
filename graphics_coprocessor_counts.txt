@@ -1,0 +1,210 @@
+Graphics Coprocessor	Count
+Intel	1348
+NVIDIA GeForce RTX 3070	202
+Intel Iris Xe Graphics	145
+Intel Integrated Graphics	103
+Intel UHD Graphics	98
+AMD Radeon Graphics	40
+Intel UHD Graphics 620	26
+NVIDIA GeForce RTX 3060	25
+NVIDIA GeForce RTX 4070	25
+NVIDIA GeForce RTX 3050 Ti	22
+Intel HD Graphics 520	22
+Integrated Graphics	21
+NVIDIA GeForce RTX 3050	18
+Intel HD Graphics 400	17
+NVIDIA GeForce RTX 4060	17
+Intel Iris	16
+Intel UHD Graphics 600	15
+NVIDIA GeForce RTX 3080	15
+Intel HD Graphics 620	14
+Intel HD Graphics	11
+Nvidia RTX A1000	10
+NVIDIA GeForce RTX 4080	9
+AMD Radeon R5	8
+AMD Integrated Graphics	8
+NVIDIA GeForce GTX 1060	8
+NVIDIA GeForce RTX 3080 Ti	7
+NVIDIA GeForce RTX 3070 Ti	7
+NVIDIA GeForce RTX 4050	7
+Intel HD Graphics 500	6
+NVIDIA GeForce GTX 1650	6
+Intel HD Graphics 3000	6
+NVIDIA GeForce GTX 1050	5
+NVIDIA RTX A3000	5
+intel	5
+Intel HD Graphics 5500	5
+NVIDIA GeForce GTX 1050 Ti	5
+AMD Radeon Graphics 5500	5
+NVIDIA RTX A500	5
+AMD Radeon	5
+Intel UHD Graphics 605	5
+NVIDIA GeForce RTX A4500	4
+NVIDIA RTX A1000	4
+integrated_graphics	4
+Intel HD Graphics 4000	4
+NVIDIA GeForce RTX 2060	4
+AMD Radeon 680M	4
+AMD Radeon R7	4
+Intel Iris Plus	4
+NVIDIA RTX A2000	3
+NVIDIA GeForce MX250	3
+NVIDIA Intel T500 Iris Xe Graphics	3
+NVIDIA GeForce RTX 2080	3
+NVIDIA GeForce GTX 1660Ti	3
+Intel HD Graphics 4400	3
+NVIDIA Quadro RTX 4000 with Max-Q Design 8GB GDDR6	3
+NVIDIA GeForce RTX 2070	3
+Intel UHD 620 Graphics	3
+NVIDIA Quadro T1000	3
+AMD Radeon Vega 3	3
+NVIDIA RTX A4500 16GB GDDR6 (4DP)	3
+AMD Radeon 680M Graphics	3
+AMD Radeon R4	3
+Intel UHD Graphics 630	3
+NVIDIA T550	2
+NVIDIA	2
+Intel HD Graphics 5000	2
+NVIDIA Â® GeForce RTXâ„¢ 2060	2
+Intel HD Graphics 610	2
+INTEL	2
+NVIDIA Intel RTX A5000 UHD Graphics	2
+AMD	2
+Intel Graphics Integrated	2
+NVIDIA GeForce RTX 4090	2
+NVIDIA RTX A4500	2
+Nvidia	2
+NVIDIA RTX A3000 12GB GDDR6	2
+Integrated	2
+NVIDIA GeForce RTX	2
+Intel HD Graphics 5300	2
+XPS9300-7909SLV-PUS	2
+NVIDIA Quadro T500 2GB	2
+Embedded	2
+PowerVR GX6250	2
+Intel HD Graphics 615	2
+AMD Radeon Pro 560	2
+Intel HD Graphics 515	2
+NVIDIA GeForce RTX 2070 Max-Q	2
+NVIDIA GeForce TRX 3070	1
+Dedicated	1
+NVIDIA GeForce MX450	1
+NVIDIA Â®	1
+AMD Radeon Hd 8330	1
+NVIDIA RTX 3500 Ada	1
+NVIDIA GeForce RTX 2080 Max-Q	1
+Intel HD 4000	1
+Intel HD Graphics 600	1
+NVIDIA Â® RTXâ„¢ A4500, 16 GB GDDR6	1
+NVIDIA RTX A5500 16GB GDDR6	1
+NVIDIA GeForce RTX 2080 Super	1
+NVIDIA RTX 2080 Super	1
+Integrated ARM Mali-G52 2EE MC2 GPU	1
+NVIDIA Intel RTX A2000 UHD Graphics	1
+NVIDIA RTX A3000 6GB GDDR6	1
+Integrated Intel Graphics	1
+NVIDIA RTX A3000, 12 GB DDR6	1
+integreted	1
+AMD Radeon RX Vega 10	1
+AMD Radeon Graphics 5	1
+2GB NVIDIA GeForce MX230 Graphics	1
+AMD Radeon Vega 8	1
+NVIDIA Quadro RTX 5000	1
+Integrated AMD Radeonâ„¢ Graphics	1
+Intel Iris X	1
+Intel HD Graphics 530	1
+Intel HD Graphics;NVIDIA Optimus Graphics	1
+Integrated Intel HD Graphics	1
+AMD Radeon Vega 9	1
+Intel Iris Plus Graphics 640	1
+NVIDIA GeForce RTX 2050	1
+Integrated Intel Graphic	1
+HD Integrated Graphics	1
+Intel 620U	1
+HD 620 Graphics	1
+AMD Radeon RX Vega 8	1
+Intel HD Graphics 4400 Integrated	1
+Mali-G72 MP3	1
+AMD Radeon HD 8790M	1
+AMD Radeon 7 Graphics	1
+AMD Radeon 610M	1
+Integrated Card	1
+Integrated AMD Radeon Graphics	1
+NVIDIA Quadro K1100M	1
+Intel UHD Graphics 520	1
+Intel HD 520 Graphics	1
+NVIDIA GeForce RTX 4000	1
+NVIDIA Quadro RTX 3000	1
+Inter Core i7-8650U	1
+NVIDIA T600	1
+AMD Athlon	1
+NVIDIA GeForce RTX 3050 Ti 6GB	1
+MediaTek Integrated Graphics	1
+NVIDIA Quadro T2000	1
+NVIDIA GeForce 940MX	1
+NVIDIA GeForce GTX 1070 OC with 8GB GDDR5	1
+NVIDIA GeForce MX130	1
+NVIDIA GeForce MX230	1
+NVIDIA GeForce MX150	1
+AMD Radeon RX 6800M	1
+NVIDIA RTX A3000 16GB GDDR6	1
+M1 Pro	1
+Intel Graphics Processor	1
+NVIDIA GeForce RTX 3070 Ti 8GB GDDR6	1
+IntelÂ® Iris Plus Graphics	1
+Intel HD Graphics 630	1
+NVIDIA Quadro T1200	1
+NVIDIA GeForce GTX 1650 Ti	1
+NVIDIA Intel GeForce RTX 3070 Ti Iris Xe Graphics	1
+NVIDIA GeForce RTX 2080 8GB GDDR6	1
+Apple Integrated Graphics	1
+Radeon Pro WX Vega M GL	1
+AMD Radeon RX 540	1
+AMD Radeon RTX 3070	1
+Intel Celeron	1
+AMD Radeon RX Vega 11	1
+UHD Graphics	1
+Intel HD Graphics 6000	1
+Quadro P1000	1
+NVIDIA GeForce GTX 1660	1
+Intel Iris Xe Graphics eligible Integrated	1
+NVIDIA Â® GeForce RTXâ„¢ 4050	1
+Intel HD	1
+NVIDIA GeForce RTX 3050 Ti 4GB GDDR6	1
+Integrated Iris Xe Graphics	1
+NVIDIA GeForce 3050	1
+NVIDIA RTX 3050TI	1
+intergrated	1
+NVIDIA Quadro 3050 6GB GDDR6	1
+NVIDIA GeForce RTX 3080 Laptop GPU	1
+Intel UPC	1
+Intel UHD Graphics Premium	1
+NVIDIA RTX 5000 16GB GDDR6	1
+NVIDIA RTX A2000 w/4GB	1
+NVIDIA Quadro P520	1
+RTX 3080	1
+NVIDIA Quadro P1000	1
+NVIDIA RTX 3000 6GB GDDR6	1
+UHD Graphics 600	1
+GX6250	1
+AMD Athlon Silver	1
+Intel HD Integrated Graphics	1
+Intel HD Grpahics 500	1
+NVIDIA RTX 2070	1
+NVIDIA GeForce RTX 3050 Ti Max-Q Graphics	1
+NVIDIA GeForcer A3000	1
+GeForce RTX 2060	1
+NVIDIA GeForce	1
+NVIDIA GeForce GTX 1070	1
+NVIDIA RTX3050	1
+NVIDIA GeForce RTX A2000	1
+NVIDIA GeForce GTX 1060 OC	1
+NVIDIA GeForce GT 720M	1
+MediaTek Integrated	1
+MediaTek	1
+Intel HD 5500	1
+Integrated IntelÂ® UHD 600 Graphics	1
+ATI Mobility Radeon 7500	1
+Mobile Intel 4 Series express	1
+NVIDIA RTX A4000 8GB GDDR6	1
+NVIDIA GeForce GTX 965M	1

@@ -1,0 +1,66 @@
+Graphics	Count
+integrated	430
+dedicated	123
+intel uhd graphics	82
+intel iris xe graphics	82
+nvidia geforce rtx 4050	67
+intel hd	51
+amd radeon graphics	29
+nvidia geforce gtx 1660	17
+nvidia geforce rtx 3080 ti	16
+amd radeon r5	12
+nvidia geforce rtx 3050 ti 4gb gddr6	10
+nvidia geforce rtx2060	10
+iris x graphics	9
+nvidia rtx a1000	8
+nvidia quadro t1000	6
+nvidia geforce mx250	6
+rtx a3000	5
+nvidia geforce rtx 2070 super	5
+nvidia geforce rtx 2080 8gb gddr6	4
+rtx 3060	4
+nvidia quadro rtx 3000	4
+powervr gx6250	3
+nvidia geforce rtx 2070 max-q	3
+geforce rtx 2060	3
+nvidia intel rtx a2000 uhd graphics	3
+nvidia intel geforce rtx 3070 ti iris xe graphics	3
+nvidia geforce gtx 1050 ti	3
+intel iris plus	3
+intel xe	3
+nvidia geforce 3050	2
+nvidia rtx 5000 16gb gddr6	2
+nvidia rtx a2000 w/4gb	2
+amd radeon vega 3	2
+amd radeon rx 6800m	2
+nvidia t1200	2
+nvidia quadro rtx 4000 with max-q design 8gb gddr6	2
+amd radeon 680m	2
+amd athlon silver	2
+rtx t600	1
+nvidia quadro 3050 6gb gddr6	1
+amd radeon hd 8330	1
+t550	1
+nvidia rtx 2080 super	1
+nvidia rtx 2070	1
+nvidia â® rtxâ„¢ a4500, 16 gb gddr6	1
+adreno 618	1
+amd radeon hd 8790m	1
+2gb nvidia geforce mx230 graphics	1
+nvidia geforce rtx 3080 laptop gpu	1
+geforce gtx 1650	1
+xps9300-7909slv-pus	1
+nvidia rtx3050	1
+radeon 680m graphics	1
+nvidia geforce rtx 3050 ti 6gb	1
+mediatek	1
+quadro p1000	1
+ati mobility radeon 7500	1
+qn20-m1-r	1
+intelâ® iris plus graphics	1
+amd radeon rtx 3070	1
+quadro t500	1
+nvidia intel t500 iris xe graphics	1
+amd radeon rx 540	1
+nvidia geforce gtx 1070 oc with 8gb gddr5	1
+nvidia t600	1
