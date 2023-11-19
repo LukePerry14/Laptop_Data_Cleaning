@@ -189,7 +189,7 @@ def process_color(input):
 
 def cpu_shrink(cpu_column):
     #initial set of allowed values
-    allowed_cpus = ['core i3', 'core i5', 'core i7', 'core i9', 'ryzen 3', 'ryzen 5', 'ryzen 7', 'ryzen 9', 'celeron', 'ryzen r series']
+    allowed_cpus = ['core m', 'core i3', 'core i5', 'core i7', 'core i9', 'ryzen 3', 'ryzen 5', 'ryzen 7', 'ryzen 9', 'celeron', 'ryzen r series']
 
 
     for i in range(len(cpu_column)):
