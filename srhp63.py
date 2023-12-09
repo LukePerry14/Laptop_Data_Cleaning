@@ -16,15 +16,6 @@ CleanData = "amazon_laptop_2023_cleaned.xlsx"
 df = pd.read_excel(UncleanData)
 
 
-# def get_mode(series):
-#     non_nan_series = series.dropna()
-#     mode_series = non_nan_series.mode()
-
-#     if mode_series.empty:
-#         return pd.NA
-    
-#     return mode_series.iloc[0]
-
 def concatenate_brand_model(Features):
     #establish columns
     brand = str(Features['brand'])
@@ -51,8 +42,7 @@ def process_storage(value):
         return str(round(vals[0]))
     return str(value)
 
-def price_regression(df, target):
-
+def regression_with_price(df, target):
     #select datapoints with values for price to train regression model
     X = df.dropna(subset=[target])[['price']]
     y = df.dropna(subset=[target])[target]
@@ -66,6 +56,35 @@ def price_regression(df, target):
 
     #predict values
     predicted_values = tree_model.predict(X_missing)
+    return predicted_values
+
+def regression_with_price_test(df, target):
+    #select datapoints with values for 'price' to train the regression model
+    X = df.dropna(subset=[target])[['price']]
+    y = df.dropna(subset=[target])[target]
+
+    #split the data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=None)
+
+    #train model
+    tree_model = DecisionTreeRegressor()
+    tree_model.fit(X_train, y_train)
+
+    #identify target records for regression
+    X_missing = df[df[target].isna()][['price']]
+
+    #predict values
+    predicted_values = tree_model.predict(X_missing)
+
+    #evaluate the model on the testing set
+    y_pred_test = tree_model.predict(X_test)
+
+    mse = mean_squared_error(y_test, y_pred_test)
+    r2 = r2_score(y_test, y_pred_test)
+
+    print(f'Mean Squared Error for {target}: {mse}')
+    print(f'R-squared on {target}: {r2}\n\n')
+
     return predicted_values
 
 def rating_regression_test(df):
@@ -106,7 +125,7 @@ def rating_regression_test(df):
     print(f'Mean Squared Error: {mse}')
     print(f'R-squared: {r2}')
 
-def price_regression_test(df):
+def regression_on_price_test(df):
     #function to test the use of a regression model for the prediction of the price values by evaluating the MSE and R-sqaured value
 
     #take copies of df to ensure original values unchanged
@@ -143,7 +162,7 @@ def price_regression_test(df):
     print(f'Mean Squared Error: {mse}')
     print(f'R-squared: {r2}')
 
-def full_price_regression(df):
+def regression_on_price(df):
 
     #filter df to get training data for regression model and prediction data
     train_data = df.dropna(subset=['price'])
@@ -170,9 +189,6 @@ def full_price_regression(df):
     #make predictions for records without prices rounded to 2dp
     predicted_prices = decision_tree_model.predict(X_predict_encoded).round(2)
 
-    #reduce all predicted values < 650 above 1500 to 1500 (accounting for outlier values that will be disregarded due to price in Q2 regardless of unknown price - as MSE calculated as 389086 in price_regression_test)
-    predicted_prices[predicted_prices < 2150] = 1500
-
     #reinsert data into df
     df.loc[df['price'].isna(), 'price'] = predicted_prices
 
@@ -185,7 +201,10 @@ def process_color(input):
     #run fuzzy string matching on 'color' column
     result = process.extractOne(str(input), allowed_colors)
     value, score = result
-    return value
+    if score < 90:
+        return "unknown"
+    else:
+        return value
 
 def cpu_shrink(cpu_column):
     #initial set of allowed values
@@ -356,7 +375,11 @@ def graphics_shrink(graphics_column):
     
 def round_to_power_of_2(x):
     #formula given by user Paul Dixon on link https://stackoverflow.com/questions/466204/rounding-up-to-next-power-of-2
-    return pow(2, math.ceil(math.log(x) / math.log(2)))
+    nearest = pow(2, math.ceil(math.log(x) / math.log(2)))
+    if abs(x-nearest) < abs(x-(nearest/2)):
+        return int(nearest)
+    else:
+        return int(nearest/2)
 
 
 #remove rows without specified model
@@ -368,30 +391,33 @@ df = df.drop('cpu_speed', axis=1)
 #standardise all colors into one of a few options with fuzzy string matching.
 df['color'] = df['color'].apply(process_color)
 
-#convert price to float and remove $ sign
-df['price'] = df['price'].str.replace(r'[^0-9.]', '', regex=True)
-df['price'] = pd.to_numeric(df['price'], errors='coerce')
-
 #remove whitespace and decapitalise all strings
 for col in df.columns:
     if df[col].dtype == 'object':
         df[col] = df[col].str.strip()
         df[col] = df[col].str.lower()
 
-#convert all storage to gb, remove strings from screen_size, ram, and harddisk, convert all to floats and fill unknowns with predictions from scikit decision tree regression model.
+#convert all storage to gb, remove strings from screen_size, ram, and harddisk, convert all to floats
 df['harddisk'] = df['harddisk'].apply(process_storage)
-for col in ['screen_size', 'ram', 'harddisk']:
+for col in ['screen_size', 'ram', 'harddisk', 'price']:
     df[col] = df[col].str.replace(r'[^0-9.]', '', regex=True)
     df[col] = pd.to_numeric(df[col], errors='coerce')
-    df.loc[df[col].isna(), col] = price_regression(df, col)
 
-#round all screen sizes to 1 decimal place, then round all ram and harddisk values to nearest power of two in accordance with hard disk standards
+#fill screensize unknowns with predictions from scikit decision tree regression model and round all screen sizes to 1 decimal place.
+df.loc[df['screen_size'].isna(), 'screen_size'] = regression_with_price(df, 'screen_size')
 df['screen_size'] = df['screen_size'].round(1)
+
+#fill ram and harddisk values with average and round all ram and harddisk values to nearest power of two in accordance with storage standards
+ram_mean = df['ram'].mean()
+df['ram'] = df['ram'].fillna(ram_mean)
 df['ram'] = df['ram'].apply(round_to_power_of_2)
+
+harddisk_mean = df['harddisk'].mean()
+df['harddisk'] = df['harddisk'].fillna(harddisk_mean)
 df['harddisk'] = df['harddisk'].apply(round_to_power_of_2)
 
 
-#emove model duplicates, then merge the brand and model columns
+#remove model duplicates, then merge the brand and model columns
 df = df.drop_duplicates(subset=['model'])
 df['model'] = df.apply(concatenate_brand_model, axis=1)
 df = df.drop('brand', axis=1)
@@ -417,17 +443,19 @@ df = df.drop('graphics_coprocessor', axis=1)
 
 # find mean of ratings column and fill all NaN values with this value
 mean = df['rating'].mean().round(1)
-print(mean)
 df['rating'] = df['rating'].fillna(mean)
 
 #remove all records with rating value less than the mean
 df = df[df['rating'] >= mean]
 
 #use decision tree regression to predict values for records with NaN for price
-df = full_price_regression(df)
+df = regression_on_price(df)
 
 #drop all records with price greater than 1500 for Q2
 df = df[df['price'] <= 1500]
+
+#drop all records without a cpu listing, this is too important to be omitted and cannot accurately be predicted given current data
+df = df.dropna(subset=['cpu'])
 
 df.to_excel(CleanData, index=False)
 print(df)

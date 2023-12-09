@@ -1,0 +1,32 @@
+intel iris xe graphics
+integrated
+amd radeon graphics
+nvidia geforce mx250
+intel uhd graphics
+dedicated
+nvidia geforce rtx 3050 ti 4gb gddr6
+rtx t600
+xps9300-7909slv-pus
+amd radeon 680m
+nvidia geforce rtx 4050
+rtx 3060
+intel hd
+nvidia quadro t1000
+nvidia geforce gtx 1660
+iris x graphics
+rtx a3000
+nvidia rtx a1000
+intel xe
+amd radeon rtx 3070
+intel iris plus
+t550
+nvidia geforce rtx 2070 super
+amd radeon r5
+mediatek
+powervr gx6250
+amd athlon silver
+amd radeon vega 3
+adreno 618
+2gb nvidia geforce mx230 graphics
+nvidia geforce rtx 3080 ti
+nvidia t600

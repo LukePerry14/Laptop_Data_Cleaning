@@ -1,17 +1,19 @@
 import pandas as pd
+import math
 
-UncleanData = "amazon_laptop_2023.xlsx"
-CleanData = "amazon_laptop_2023_cleaned.xlsx"
+# df = pd.read_excel('amazon_laptop_2023_cleaned.xlsx')
 
-# Read the data from the Excel file
-df = pd.read_excel(UncleanData)
-# Assuming you have a DataFrame named 'Features'
-# If not, replace this with your actual DataFrame
+# # List of columns for which you want to create text files
+# columns_to_process = ['graphics']
 
-# Create a DataFrame with unique values and their counts
-unique_values_counts = df['graphics_coprocessor'].value_counts().reset_index()
+# for column in columns_to_process:
+#     # Extract unique values from the column
+#     unique_values = df[column].unique()
 
-# Rename the columns for clarity
-unique_values_counts.columns = ['Graphics Coprocessor', 'Count']
+#     # Create a text file with the column name as the file name
+#     with open(f'{column}.txt', 'w') as file:
+#         # Write each unique value to the file
+#         for value in unique_values:
+#             file.write(str(value) + '\n')
 
-unique_values_counts.to_csv('graphics_coprocessor_counts.txt', sep='\t', index=False)
+print(math.log(9, 2))

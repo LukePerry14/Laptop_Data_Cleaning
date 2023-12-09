@@ -1,0 +1,24 @@
+core i7
+core i5
+ryzen 7
+ryzen 5
+amd r series
+core i3
+1.2ghz cortex a8 processor
+intel mobile cpu
+apple m1
+core i9
+snapdragon
+mediatek mt8183
+celeron
+intel atom
+pentium
+mediatek_mt8127
+atom z8350
+athlon
+core m
+ryzen 3
+amd a4
+mediatek helio p60t
+amd kabini a6-5200m quad core
+core_m
